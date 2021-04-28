@@ -56,8 +56,8 @@ public class StrBuffer {
     }
 
     public void listAll(){
-        for(String string:strings){
-            System.out.println(string);
+        for(int i = 0; i < size; i++){
+            System.out.println(strings[i]);
         }
     }
 
